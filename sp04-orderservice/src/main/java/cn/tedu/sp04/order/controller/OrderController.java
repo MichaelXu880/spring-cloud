@@ -42,6 +42,7 @@ public class OrderController {
                 new Item(5,"eee",5),
         }));
         orderService.addOrder(order);
+        System.out.println("111");
         return JsonResult.ok();
     }
 }
